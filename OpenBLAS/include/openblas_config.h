@@ -7,7 +7,7 @@
 #define OPENBLAS_PTHREAD_CREATE_FUNC pthread_create
 #define OPENBLAS_BUNDERSCORE _
 #define OPENBLAS_NEEDBUNDERSCORE 1
-#define OPENBLAS_ZEN 
+#define OPENBLAS_ZEN 
 #define OPENBLAS_L1_CODE_SIZE 32768
 #define OPENBLAS_L1_CODE_ASSOCIATIVE 8
 #define OPENBLAS_L1_CODE_LINESIZE 64
@@ -26,24 +26,24 @@
 #define OPENBLAS_DTB_SIZE 4096
 #define OPENBLAS_DTB_ASSOCIATIVE 0
 #define OPENBLAS_DTB_DEFAULT_ENTRIES 64
-#define OPENBLAS_HAVE_CMOV 
-#define OPENBLAS_HAVE_MMX 
-#define OPENBLAS_HAVE_SSE 
-#define OPENBLAS_HAVE_SSE2 
-#define OPENBLAS_HAVE_SSE3 
-#define OPENBLAS_HAVE_SSSE3 
-#define OPENBLAS_HAVE_SSE4_1 
-#define OPENBLAS_HAVE_SSE4_2 
-#define OPENBLAS_HAVE_SSE4A 
-#define OPENBLAS_HAVE_AVX 
-#define OPENBLAS_HAVE_AVX2 
-#define OPENBLAS_HAVE_FMA3 
-#define OPENBLAS_HAVE_CFLUSH 
-#define OPENBLAS_HAVE_MISALIGNSSE 
-#define OPENBLAS_HAVE_FASTMOVU 
+#define OPENBLAS_HAVE_CMOV 
+#define OPENBLAS_HAVE_MMX 
+#define OPENBLAS_HAVE_SSE 
+#define OPENBLAS_HAVE_SSE2 
+#define OPENBLAS_HAVE_SSE3 
+#define OPENBLAS_HAVE_SSSE3 
+#define OPENBLAS_HAVE_SSE4_1 
+#define OPENBLAS_HAVE_SSE4_2 
+#define OPENBLAS_HAVE_SSE4A 
+#define OPENBLAS_HAVE_AVX 
+#define OPENBLAS_HAVE_AVX2 
+#define OPENBLAS_HAVE_FMA3 
+#define OPENBLAS_HAVE_CFLUSH 
+#define OPENBLAS_HAVE_MISALIGNSSE 
+#define OPENBLAS_HAVE_FASTMOVU 
 #define OPENBLAS_NUM_SHAREDCACHE 1
 #define OPENBLAS_NUM_CORES 1
-#define OPENBLAS_CORE_ZEN 
+#define OPENBLAS_CORE_ZEN 
 #define OPENBLAS_CHAR_CORENAME "ZEN"
 #define OPENBLAS_SLOCAL_BUFFER_SIZE 20480
 #define OPENBLAS_DLOCAL_BUFFER_SIZE 32768
@@ -143,5 +143,10 @@ typedef int blasint;
   #define openblas_complex_double_imag(z)            ((z).imag)
   #define openblas_complex_xdouble_real(z)           ((z).real)
   #define openblas_complex_xdouble_imag(z)           ((z).imag)
+#endif
+
+/* Inclusion of Linux-specific header is needed for definition of cpu_set_t. */
+#ifdef OPENBLAS_OS_LINUX
+#include <sched.h>
 #endif
 #endif /* OPENBLAS_CONFIG_H */
