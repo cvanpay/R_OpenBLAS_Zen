@@ -4,7 +4,8 @@
 
 ### Instructions
 
-1. Navigate to your R bin (typically Program Files\R-X.X.X\bin\x64 and rename your current RBlas.dll & RLapack.dll as ORBlas.dll & ORLapack.dll (or something similar).
+1. Navigate to your R bin (typically Program Files\R-X.X.X\bin\x64 and rename your current RBlas.dll & RLapack.dll. 
+	1. Name them ORBlas.dll & ORLapack.dll (or something similar, so you can change back if needed).
 2. Place the RBlas.dll, RLapack.dll, & libopenblas.dll from this repo into your Program Files\R-X.X.X\bin\x64 folder.
 3. Make necessary changes to your Makevars.win (typically in Documents\.R), the one included in the repo is an example.
 4. Enjoy multi-threaded, faster BLAS.
