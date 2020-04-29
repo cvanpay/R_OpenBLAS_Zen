@@ -1,0 +1,206 @@
+  5284c5284
+  < description "C:\\R-Devel\\tmp\\Rtmpc5IkvJ\\test28b82a771f8b"
+  ---
+  > description "C:\\R-Devel\\tmp\\RtmpyC2bxy\\test37201cd77a62"
+  7278c7278
+  < 82 
+  ---
+  > 69 
+  15762c15762
+  <   incomplete final line found on 'C:\R-Devel\tmp\Rtmpc5IkvJ\test28b861626bb1'
+  ---
+  >   incomplete final line found on 'C:\R-Devel\tmp\RtmpyC2bxy\test372023d5522'
+  3681a3682,3689
+  > List of 3
+  >  $ serif: chr [1:4] "Times-Roman" "Times-Bold" "Times-Italic" "Times-BoldItalic"
+  >  $ sans : chr [1:4] "Helvetica" "Helvetica-Bold" "Helvetica-Oblique" "Helvetica-BoldOblique"
+  >  $ mono : chr [1:4] "Courier" "Courier-Bold" "Courier-Oblique" "Courier-BoldOblique"
+  > $mono
+  > [1] "Courier"             "Courier-Bold"        "Courier-Oblique"    
+  > [4] "Courier-BoldOblique"
+  > 
+  3923,3936d3930
+  < > windowsFonts()
+  < $serif
+  < [1] "TT Times New Roman"
+  < 
+  < $sans
+  < [1] "TT Arial"
+  < 
+  < $mono
+  < [1] "TT Courier New"
+  < 
+  < > windowsFonts("mono")
+  < $mono
+  < [1] "TT Courier New"
+  < 
+running strict specific tests
+running code in 'eval-etc.R' ... OK
+  comparing 'eval-etc.Rout' to './eval-etc.Rout.save' ... OK
+running code in 'simple-true.R' ... OK
+  comparing 'simple-true.Rout' to './simple-true.Rout.save' ... OK
+running code in 'arith-true.R' ... OK
+  comparing 'arith-true.Rout' to './arith-true.Rout.save' ... OK
+running code in 'arith.R' ... OK
+  comparing 'arith.Rout' to './arith.Rout.save' ... OK
+running code in 'lm-tests.R' ... OK
+  comparing 'lm-tests.Rout' to './lm-tests.Rout.save' ... OK
+running code in 'ok-errors.R' ... OK
+  comparing 'ok-errors.Rout' to './ok-errors.Rout.save' ... OK
+running code in 'method-dispatch.R' ... OK
+  comparing 'method-dispatch.Rout' to './method-dispatch.Rout.save' ... OK
+running code in 'any-all.R' ... OK
+  comparing 'any-all.Rout' to './any-all.Rout.save' ... OK
+running code in 'd-p-q-r-tests.R' ... OK
+  comparing 'd-p-q-r-tests.Rout' to './d-p-q-r-tests.Rout.save' ... OK
+running sloppy specific tests
+running code in 'complex.R' ... OK
+  comparing 'complex.Rout' to './complex.Rout.save' ... OK
+running code in 'eval-etc-2.R' ... OK
+  comparing 'eval-etc-2.Rout' to './eval-etc-2.Rout.save' ... OK
+running code in 'print-tests.R' ... OK
+  comparing 'print-tests.Rout' to './print-tests.Rout.save' ... OK
+running code in 'lapack.R' ... OK
+  comparing 'lapack.Rout' to './lapack.Rout.save' ... OK
+running code in 'datasets.R' ... OK
+  comparing 'datasets.Rout' to './datasets.Rout.save' ... OK
+running code in 'datetime.R' ... OK
+  comparing 'datetime.Rout' to './datetime.Rout.save' ... OK
+running code in 'iec60559.R' ... OK
+  comparing 'iec60559.Rout' to './iec60559.Rout.save' ... OK
+checking Sys.timezone ...
+running code in 'timezone.R' ... OK
+running regression tests ...
+running code in 'array-subset.R' ... OK
+running code in 'reg-tests-1a.R' ... OK
+running code in 'reg-tests-1b.R' ... OK
+running code in 'reg-tests-1c.R' ... OK
+running code in 'reg-tests-1d.R' ... OK
+running code in 'reg-tests-2.R' ... OK
+  comparing 'reg-tests-2.Rout' to './reg-tests-2.Rout.save' ... OK
+running code in 'reg-examples1.R' ... OK
+running code in 'reg-examples2.R' ... OK
+running code in 'reg-packages.R' ... OK
+running code in 'p-qbeta-strict-tst.R' ... OK
+running code in 'r-strict-tst.R' ... OK
+running code in 'reg-IO.R' ... OK
+  comparing 'reg-IO.Rout' to './reg-IO.Rout.save' ... OK
+running code in 'reg-IO2.R' ... OK
+  comparing 'reg-IO2.Rout' to './reg-IO2.Rout.save' ... OK
+running code in 'reg-plot.R' ... OK
+  comparing 'reg-plot.pdf' to './reg-plot.pdf.save' ... OK
+running code in 'reg-S4-examples.R' ... OK
+running code in 'reg-BLAS.R' ... OK
+make[3]: 'reg-win.Rout' is up to date.
+running code in 'reg-tests-3.R' ... OK
+  comparing 'reg-tests-3.Rout' to './reg-tests-3.Rout.save' ... OK
+running code in 'reg-examples3.R' ... OK
+  comparing 'reg-examples3.Rout' to './reg-examples3.Rout.save' ... OK
+running tests of plotting Latin-1
+  expect failure or some differences if not in a Latin-1 or UTF-8 locale
+running code in 'reg-plot-latin1.R' ... OK
+  comparing 'reg-plot-latin1.pdf' to './reg-plot-latin1.pdf.save' ... OK
+running code in 'reg-S4.R' ... OK
+  comparing 'reg-S4.Rout' to './reg-S4.Rout.save' ... OK
+running tests of Internet functions
+running code in 'internet.R' ... OK
+  comparing 'internet.Rout' to './internet.Rout.save' ... OK
+running tests of date-time printing
+  expect platform-specific differences
+running code in 'datetime2.R' ... OK
+  comparing 'datetime2.Rout' to './datetime2.Rout.save' ... OK
+running tests of documentation examples
+running code in 'R-intro.R' ... OK
+  comparing 'R-intro.Rout' to './R-intro.Rout.save' ... OK
+/mingw64/bin/gcc  -I"C:/R-Devel/r-base-master/R-4.0.0/include" -DNDEBUG          -O2 -Wall  -std=gnu99 -march=native -mtune=native -c R-exts.c -o R-exts.o
+/mingw64/bin/gcc -shared -s -static-libgcc -o R-exts.dll tmp.def R-exts.o -LC:/R-Devel/r-base-master/R-4.0.0/bin/x64 -lR
+running code in 'R-exts.R' ... OK
+running tests of consistency of as/is.*
+creating 'isas-tests.R'
+running code in 'isas-tests.R' ... OK
+  comparing 'isas-tests.Rout' to './isas-tests.Rout.save' ... OK
+rm isas-tests.R
+running tests of random deviate generation
+running code in 'p-r-random-tests.R' ... OK
+  comparing 'p-r-random-tests.Rout' to './p-r-random-tests.Rout.save' ... OK
+running demos from base and stats
+running code in 'demos.R' ... OK
+  comparing 'demos.Rout' to './demos.Rout.save' ...110,111c110,111
+< Number of all base objects:	1362
+< Number of functions from these:	1319
+---
+> Number of all base objects:	1357
+> Number of functions from these:	1314
+ OK
+running code in 'demos2.R' ... OK
+running tests of primitives
+running code in 'primitives.R' ... OK
+running regexp regression tests
+running more Internet and socket tests
+running code in 'internet2.R' ... OK
+running code in 'libcurl.R' ... OK
+running tests of CRAN tools
+  (can be slow unless mirror is local)
+running code in 'CRANtools.R' ... OK
+running tests to possibly trigger segfaults
+creating 'no-segfault.R'
+running code in 'no-segfault.R' ... OK
+testing building standalone Rmath
+check output can be found in src/nmath/standalone/check.log
+running unit tests for the condition system
+running code in 'conditions.R' ... OK
+checking package 'base'
+* using log directory 'C:/R-Devel/r-base-master/R-4.0.0/tests/base.Rcheck'
+* using R version 4.0.0 (2020-04-24)
+* using platform: x86_64-w64-mingw32 (64-bit)
+* using session charset: ISO8859-1
+* using option '--no-build-vignettes'
+* looks like 'base' is a base package
+* skipping installation test
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... NOTE
+Packages unavailable to check Rd xrefs: 'date', 'chron', 'round'
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking examples ... SKIPPED
+* checking PDF version of manual ... OK
+* DONE
+Status: 1 NOTE
+checking package 'tools'
+* using log directory 'C:/R-Devel/r-base-master/R-4.0.0/tests/tools.Rcheck'
+* using R version 4.0.0 (2020-04-24)
+* using platform: x86_64-w64-mingw32 (64-bit)
+* using session charset: ISO8859-1
+* using option '--no-build-vignettes'
+* looks like 'tools' is a base package
+* skipping installation test
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ...

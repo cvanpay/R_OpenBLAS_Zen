@@ -1,8 +1,6 @@
-CXX14 = g++ -std=c++1y
-
-PKG_CXXFLAGS = $(SHLIB_OPENMP_CXXFLAGS) -I../inst/include -lopenblas -msse2 -mfpmath=sse
-PKG_LIBS = $(SHLIB_OPENMP_CXXFLAGS) $(LAPACK_LIBS) $(BLAS_LIBS) $(FLIBS) -lopenblas -msse2 -mfpmath=sse
-
-CXXFLAGS=-O3 -march=haswell -mtune=haswell
-CXX14FLAGS=-O3 -march=haswell -mtune=haswell -Wno-unused-variable -Wno-unused-function
-CXX11FLAGS=-O3 -march=haswell -mtune=haswell
+PKG_FLAGS += $(SHLIB_OPENMP_FFLAGS) -I../inst/include -lopenblas -msse2 -mfpmath=sse
+PKG_FCFLAGS += $(SHLIB_OPENMP_FCFLAGS) -I../inst/include -lopenblas -msse2 -mfpmath=sse
+PKG_CFLAGS += $(SHLIB_OPENMP_CFLAGS) -I../inst/include -lopenblas -msse2 -mfpmath=sse
+PKG_CPPFLAGS += $(SHLIB_OPENMP_CPPFLAGS) -I../inst/include -lopenblas -msse2 -mfpmath=sse
+PKG_CXXFLAGS += $(SHLIB_OPENMP_CXXFLAGS)  -I../inst/include -lopenblas -msse2 -mfpmath=sse
+PKG_LIBS += $(SHLIB_OPENMP_CXXFLAGS) $(LAPACK_LIBS) $(BLAS_LIBS) $(FLIBS)
