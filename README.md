@@ -9,6 +9,7 @@
 2. Place the RBlas.dll, RLapack.dll, & libopenblas.dll from this repo into your Program Files\R-X.X.X\bin\x64 folder.
 3. Make necessary changes to your Makevars.win (typically in Documents/.R), the one included in the repo is an example.
 4. Enjoy multi-threaded, faster BLAS.
+5. Control number of threads with Sys.setenv("OMP_NUM_THREADS"="X") in R, or set a user variable OMP_NUM_THREADS = X.
 
 ### Info
 * Compiled within R-4.0.0 for Windows, but also tested to work for R.3.6.X.
