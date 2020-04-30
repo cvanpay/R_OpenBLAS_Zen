@@ -15,3 +15,8 @@
 * Compiled within R-4.0.0 for Windows, but also tested to work for R.3.6.X.
 * CheckAll.txt includes error checking, including Blas. 
 * Folder OpenBLAS includes the dynamic & static libs, along with the headers.
+
+### Credit
+
+Thanks to help from this wonderful guide here: https://www.avrahamadler.com/r-tips/build-openblas-for-windows-r64/
+and for OpenBLAS and guidance from https://github.com/xianyi/OpenBLAS/
