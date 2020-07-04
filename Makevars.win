@@ -1,6 +1,6 @@
-PKG_FFLAGS += $(SHLIB_OPENMP_FFLAGS) -I../inst/include -lopenblas -msse2 -mfpmath=sse
-PKG_FCFLAGS += $(SHLIB_OPENMP_FCFLAGS) -I../inst/include -lopenblas -msse2 -mfpmath=sse
-PKG_CFLAGS += $(SHLIB_OPENMP_CFLAGS) -I../inst/include -lopenblas -msse2 -mfpmath=sse
-PKG_CPPFLAGS += $(SHLIB_OPENMP_CPPFLAGS) -I../inst/include -lopenblas -msse2 -mfpmath=sse
-PKG_CXXFLAGS += $(SHLIB_OPENMP_CXXFLAGS)  -I../inst/include -lopenblas -msse2 -mfpmath=sse
+PKG_FFLAGS += $(SHLIB_OPENMP_FFLAGS) -I../inst/include -msse2 -mfpmath=sse
+PKG_FCFLAGS += $(SHLIB_OPENMP_FCFLAGS) -I../inst/include -msse2 -mfpmath=sse
+PKG_CFLAGS += $(SHLIB_OPENMP_CFLAGS) -I../inst/include -msse2 -mfpmath=sse
+PKG_CPPFLAGS += $(SHLIB_OPENMP_CPPFLAGS) -I../inst/include -msse2 -mfpmath=sse
+PKG_CXXFLAGS += $(SHLIB_OPENMP_CXXFLAGS)  -I../inst/include -msse2 -mfpmath=sse
 PKG_LIBS += $(SHLIB_OPENMP_CXXFLAGS) $(LAPACK_LIBS) $(BLAS_LIBS) $(FLIBS)
