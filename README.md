@@ -1,6 +1,6 @@
 # R_OpenBLAS_Zen
 
-## Windows RBlas.dll & RLapack.dll compiled from OpenBLAS 0.3.9 with OpenMP enabled, optimized for AMD Ryzen Zen processors.
+## Windows RBlas.dll & RLapack.dll compiled from OpenBLAS 0.3.10, optimized for AMD Ryzen Zen processors.
 
 ### Instructions
 
