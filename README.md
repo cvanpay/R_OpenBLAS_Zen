@@ -12,8 +12,8 @@
 5. Control number of threads with Sys.setenv("OMP_NUM_THREADS"="X") in R, or set a user variable OMP_NUM_THREADS = X.
 
 ### Info
-* Compiled within R-4.0.0 for Windows, but also tested to work for R.3.6.X.
-* CheckAll.txt includes error checking, including Blas. 
+* Compiled within R-4.0.2 for Windows, but also tested to work for R.3.6.X & 4.0.X.
+* CheckAll.txt includes error checking, including Blas tests. 
 * Folder OpenBLAS includes the dynamic & static libs, along with the headers.
 
 ### Credit
