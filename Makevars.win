@@ -1,3 +1,10 @@
+CXX_STD = CXX17
+
+CFLAGS = -O3 -mtune=native -march=native
+CXXFLAGS = -O3 -mtune=native -march=native
+CXX11FLAGS = -O3 -march=native -mtune=native
+CXX14FLAGS = -O3 -march=native -mtune=native
+
 PKG_FFLAGS += $(SHLIB_OPENMP_FFLAGS) -I../inst/include -msse2 -mfpmath=sse
 PKG_FCFLAGS += $(SHLIB_OPENMP_FCFLAGS) -I../inst/include -msse2 -mfpmath=sse
 PKG_CFLAGS += $(SHLIB_OPENMP_CFLAGS) -I../inst/include -msse2 -mfpmath=sse
